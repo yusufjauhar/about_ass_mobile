@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient_background">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_shape"
+        android:src="@drawable/profile_picture1" />
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yusuf Jauhar Alif Faqih"
+        android:textSize="24sp"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+
+        android:textColor="#FFFFFF"/>
+
+
+    <TextView
+        android:id="@+id/student_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STI202102390"
+        android:layout_below="@id/student_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/student_major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teknik Informatika"
+        android:layout_below="@id/student_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/student_semester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester 4"
+        android:layout_below="@id/student_major"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/student_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kec.Banyumas kab.Banyumas jawa tengah"
+        android:layout_below="@id/student_semester"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
